@@ -1,0 +1,41 @@
+textarea,
+input,
+select,
+button {
+  margin: 0.35rem;
+  padding: 0.45rem;
+}
+
+button,
+.button-link {
+  cursor: pointer;
+}
+
+.client-nav-wrapper {
+  margin: 1rem 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.client-page img,
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-card img {
+  cursor: pointer;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #f6f6f6;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  overflow-x: auto;
+}
+
+form label {
+  display: block;
+  margin: 0.75rem 0;
+}
